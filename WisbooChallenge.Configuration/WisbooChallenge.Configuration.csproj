@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\WisbooChallenge.Entities\WisbooChallenge.Entities.csproj" />
+    <ProjectReference Include="..\WisbooChallenge.Helpers\WisbooChallenge.Helpers.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>

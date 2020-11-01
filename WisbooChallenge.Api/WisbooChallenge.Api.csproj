@@ -1,5 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup>
+    <ProjectReference Include="..\WisbooChallenge.Business\WisbooChallenge.Business.csproj" />
+    <ProjectReference Include="..\WisbooChallenge.Configuration\WisbooChallenge.Configuration.csproj" />
+    <ProjectReference Include="..\WisbooChallenge.Entities\WisbooChallenge.Entities.csproj" />
+    <ProjectReference Include="..\WisbooChallenge.Helpers\WisbooChallenge.Helpers.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.9" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>

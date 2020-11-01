@@ -1,9 +1,16 @@
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\bin\Debug\netcoreapp3.1\WisbooChallenge.Business.deps.json
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\bin\Debug\netcoreapp3.1\WisbooChallenge.Business.dll
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\bin\Debug\netcoreapp3.1\WisbooChallenge.Business.pdb
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\bin\Debug\netcoreapp3.1\WisbooChallenge.Data.dll
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\bin\Debug\netcoreapp3.1\WisbooChallenge.Entities.dll
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\bin\Debug\netcoreapp3.1\WisbooChallenge.Helpers.dll
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\bin\Debug\netcoreapp3.1\WisbooChallenge.Data.pdb
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\bin\Debug\netcoreapp3.1\WisbooChallenge.Entities.pdb
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\bin\Debug\netcoreapp3.1\WisbooChallenge.Helpers.pdb
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\obj\Debug\netcoreapp3.1\WisbooChallenge.Business.csprojAssemblyReference.cache
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\obj\Debug\netcoreapp3.1\WisbooChallenge.Business.csproj.CoreCompileInputs.cache
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\obj\Debug\netcoreapp3.1\WisbooChallenge.Business.AssemblyInfoInputs.cache
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\obj\Debug\netcoreapp3.1\WisbooChallenge.Business.AssemblyInfo.cs
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\obj\Debug\netcoreapp3.1\WisbooChallenge.Business.csproj.CopyComplete
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\obj\Debug\netcoreapp3.1\WisbooChallenge.Business.dll
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Business\obj\Debug\netcoreapp3.1\WisbooChallenge.Business.pdb

@@ -1,7 +1,6 @@
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Helpers\bin\Debug\netcoreapp3.1\WisbooChallenge.Helpers.deps.json
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Helpers\bin\Debug\netcoreapp3.1\WisbooChallenge.Helpers.dll
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Helpers\bin\Debug\netcoreapp3.1\WisbooChallenge.Helpers.pdb
-G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Helpers\obj\Debug\netcoreapp3.1\WisbooChallenge.Helpers.csprojAssemblyReference.cache
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Helpers\obj\Debug\netcoreapp3.1\WisbooChallenge.Helpers.csproj.CoreCompileInputs.cache
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Helpers\obj\Debug\netcoreapp3.1\WisbooChallenge.Helpers.AssemblyInfoInputs.cache
 G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Helpers\obj\Debug\netcoreapp3.1\WisbooChallenge.Helpers.AssemblyInfo.cs
