@@ -1,0 +1,9 @@
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Configuration\bin\Debug\netcoreapp3.1\WisbooChallenge.Configuration.deps.json
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Configuration\bin\Debug\netcoreapp3.1\WisbooChallenge.Configuration.dll
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Configuration\bin\Debug\netcoreapp3.1\WisbooChallenge.Configuration.pdb
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Configuration\obj\Debug\netcoreapp3.1\WisbooChallenge.Configuration.csprojAssemblyReference.cache
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Configuration\obj\Debug\netcoreapp3.1\WisbooChallenge.Configuration.csproj.CoreCompileInputs.cache
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Configuration\obj\Debug\netcoreapp3.1\WisbooChallenge.Configuration.AssemblyInfoInputs.cache
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Configuration\obj\Debug\netcoreapp3.1\WisbooChallenge.Configuration.AssemblyInfo.cs
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Configuration\obj\Debug\netcoreapp3.1\WisbooChallenge.Configuration.dll
+G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Configuration\obj\Debug\netcoreapp3.1\WisbooChallenge.Configuration.pdb
