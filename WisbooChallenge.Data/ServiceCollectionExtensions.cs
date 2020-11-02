@@ -1,6 +1,8 @@
-using WisbooChallenge.Data.Core;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using WisbooChallenge.Data.Core;
+using WisbooChallenge.Data.Interfaces;
+using WisbooChallenge.Data.Classes;
 
 namespace WisbooChallenge.Data
 {
@@ -12,6 +14,9 @@ namespace WisbooChallenge.Data
 
             services.AddScoped<IDBManager, DBManager>();
             
+            services.AddScoped<IVideoMediaData, VideoMediaData>();
+            services.AddScoped<IVideoCommentData, VideoCommentData>();
+
             return services;
         }
     }

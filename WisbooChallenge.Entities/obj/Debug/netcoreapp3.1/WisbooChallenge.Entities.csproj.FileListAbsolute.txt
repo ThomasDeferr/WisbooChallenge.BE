@@ -1,8 +1,0 @@
-G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Entities\bin\Debug\netcoreapp3.1\WisbooChallenge.Entities.deps.json
-G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Entities\bin\Debug\netcoreapp3.1\WisbooChallenge.Entities.dll
-G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Entities\bin\Debug\netcoreapp3.1\WisbooChallenge.Entities.pdb
-G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Entities\obj\Debug\netcoreapp3.1\WisbooChallenge.Entities.csproj.CoreCompileInputs.cache
-G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Entities\obj\Debug\netcoreapp3.1\WisbooChallenge.Entities.AssemblyInfoInputs.cache
-G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Entities\obj\Debug\netcoreapp3.1\WisbooChallenge.Entities.AssemblyInfo.cs
-G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Entities\obj\Debug\netcoreapp3.1\WisbooChallenge.Entities.dll
-G:\Repositories\WisbooChallenge\WisbooChallenge.BE\WisbooChallenge.Entities\obj\Debug\netcoreapp3.1\WisbooChallenge.Entities.pdb

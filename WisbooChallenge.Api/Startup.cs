@@ -12,7 +12,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Serialization;
-using WisbooChallenge.Business;
+using WisbooChallenge.Data;
+using WisbooChallenge.Configuration;
 using WisbooChallenge.Helpers.Exceptions;
 using WisbooChallenge.Helpers.Middlewares;
 
@@ -32,7 +33,8 @@ namespace WisbooChallenge.Api
         {
             services.AddCors();
 
-            services.AddBusinessServices(Configuration);
+            services.AddDataServices(Configuration);
+            services.AddProfiles(typeof(Startup));
 
             services.AddControllers();
             
