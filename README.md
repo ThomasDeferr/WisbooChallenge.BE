@@ -1,8 +1,8 @@
-# Wisboo Challenge (BackEnd)
+# Wisboo Challenge (Back-End)
 
 ## Overview
 
-Wisboo challenge built on ASP.NET Core 3.1 using API REST.
+Wisboo Challenge Back-End App built on ASP.NET Core 3.1 using API REST.
 
 ## Features (Endpoints)
 
