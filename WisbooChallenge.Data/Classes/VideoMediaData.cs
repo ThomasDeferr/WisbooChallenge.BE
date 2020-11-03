@@ -61,6 +61,7 @@ namespace WisbooChallenge.Data.Classes
             sqlParameters.Add(_dbManager.CreateInputParameter("@HashedID", videoMedia.HashedID));
             sqlParameters.Add(_dbManager.CreateInputParameter("@Title", videoMedia.Title));
             sqlParameters.Add(_dbManager.CreateInputParameter("@Color", videoMedia.Color));
+            sqlParameters.Add(_dbManager.CreateInputParameter("@ThumbnailUrl", videoMedia.ThumbnailUrl));
 
             SqlParameter ouputParameterId = _dbManager.CreateOutputParameter("@ID", SqlDbType.Int);
             sqlParameters.Add(ouputParameterId);
@@ -83,6 +84,7 @@ namespace WisbooChallenge.Data.Classes
             sqlParameters.Add(_dbManager.CreateInputParameter("@HashedID", videoMedia.HashedID));
             sqlParameters.Add(_dbManager.CreateInputParameter("@Title", videoMedia.Title));
             sqlParameters.Add(_dbManager.CreateInputParameter("@Color", videoMedia.Color));
+            sqlParameters.Add(_dbManager.CreateInputParameter("@ThumbnailUrl", videoMedia.ThumbnailUrl));
             #endregion
 
             await _dbManager.Update(storedProcedure: "usp_VideoMedias_UpdateByID", sqlParameters: sqlParameters);
@@ -127,6 +129,7 @@ namespace WisbooChallenge.Data.Classes
                 HashedID = reader.GetValue<string>(nameof(VideoMedia.HashedID)),
                 Title = reader.GetValue<string>(nameof(VideoMedia.Title)),
                 Color = reader.GetValue<string>(nameof(VideoMedia.Color)),
+                ThumbnailUrl = reader.GetValue<string>(nameof(VideoMedia.ThumbnailUrl)),
                 
                 TS = reader.GetValue<DateTime>(nameof(VideoMedia.TS))
             };

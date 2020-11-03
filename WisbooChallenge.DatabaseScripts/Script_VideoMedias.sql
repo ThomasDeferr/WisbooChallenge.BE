@@ -3,7 +3,8 @@ CREATE TABLE VideoMedias (
 
     HashedID VARCHAR(25) NOT NULL,
     Title VARCHAR(100) NOT NULL,
-    Color VARCHAR(7) NOT NULL,
+    Color VARCHAR(6) NOT NULL,
+    ThumbnailUrl VARCHAR(250) NOT NULL,
 
     TS DATETIME2 DEFAULT(GETDATE()) NOT NULL,
     
@@ -60,7 +61,8 @@ GO
 CREATE OR ALTER PROCEDURE usp_VideoMedias_Insert (
     @HashedID VARCHAR(25),
     @Title VARCHAR(100),
-    @Color VARCHAR(7),
+    @Color VARCHAR(6),
+    @ThumbnailUrl VARCHAR(250),
 
     @ID INT OUTPUT
 )
@@ -71,12 +73,14 @@ BEGIN
     INSERT INTO VideoMedias (
         HashedID,
         Title,
-        Color
+        Color,
+        ThumbnailUrl
     )
     VALUES (
         @HashedID,
         @Title,
-        @Color
+        @Color,
+        @ThumbnailUrl
     );
 
     SET @ID = SCOPE_IDENTITY();
@@ -88,7 +92,8 @@ CREATE OR ALTER PROCEDURE usp_VideoMedias_UpdateByID (
 
     @HashedID VARCHAR(25),
     @Title VARCHAR(100),
-    @Color VARCHAR(7)
+    @Color VARCHAR(6),
+    @ThumbnailUrl VARCHAR(250)
 )
 AS 
 BEGIN
@@ -99,6 +104,7 @@ BEGIN
         HashedID = @HashedID,
         Title = @Title,
         Color = @Color,
+        ThumbnailUrl = @ThumbnailUrl,
 
         TS = GETDATE()
     WHERE
@@ -113,6 +119,7 @@ AS
 BEGIN
     SET NOCOUNT ON;
 
+    DELETE FROM VideoComments WHERE VideoMediaID = @ID;
     DELETE FROM VideoMedias WHERE ID = @ID;
 END;
 GO        

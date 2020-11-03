@@ -10,6 +10,7 @@ namespace WisbooChallenge.Entities.Classes
         public string HashedID { get; set; }
         public string Title { get; set; }
         public string Color { get; set; }
+        public string ThumbnailUrl { get; set; }
         
         public DateTime? TS { get; set; }
     }
