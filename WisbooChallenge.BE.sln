@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisbooChallenge.Helpers", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisbooChallenge.Configuration", "WisbooChallenge.Configuration\WisbooChallenge.Configuration.csproj", "{5AE7E7D3-8B3A-4649-ADC9-2128E008EFB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisbooChallenge.Business", "WisbooChallenge.Business\WisbooChallenge.Business.csproj", "{56EBE7A2-75EF-4CC3-8409-E33E5313FDFF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
